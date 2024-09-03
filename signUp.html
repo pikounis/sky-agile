@@ -36,7 +36,72 @@
           </div>
         </div>
       </nav>
-    </body>
+        <!-- sign up form inputs -->
+
+        <form>
+
+          <div class="mb-3">
+            <label for="Titles" class="form-label">Title *</label>
+            <select class="form-select" id="Titles" required>
+              <option selected>Select</option>
+              <option value="Mr">Mr</option>
+              <option value="Mrs">Mrs</option>
+              <option value="Miss">Miss</option>
+              <option value="Dr">Dr</option>
+              <option value="RatherNotSay">I'd Rather Not Say</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email Address *</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+        
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name *</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+        
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name *</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+        
+          <div class="mb-3">
+            <label for="DOB" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" id="DOB">
+          </div>
+        
+          <div class="mb-3">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phoneNumber">
+          </div>
+        
+          <div class="mb-3">
+            <label for="Gender" class="form-label">Gender</label>
+            <select class="form-select" id="Gender" required>
+              <option selected>Select</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="NonBinary">Non-binary</option>
+              <option value="Genderfluid">Genderfluid</option>
+              <option value="RatherNotSay">I'd Rather Not Say</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        
+          <button onclick="myFunction()" class="btn btn-primary">Submit</button>
+          <script>
+          function myFunction() {
+            alert("Thank you for signing up!");
+          }</script>
+        </form>
+        
+  
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  
   </body>
 
   <footer>
