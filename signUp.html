@@ -10,6 +10,7 @@
   <body>
   
       <h1>Sign Up</h1>
+      <!-- navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="homepage.html">QA</a>
@@ -36,7 +37,56 @@
           </div>
         </div>
       </nav>
-    </body>
+
+      <!-- navbar end -->
+
+      <!-- sign up form inputs -->
+
+      <form>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Title
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Mr</a></li>
+            <li><a class="dropdown-item" href="#">Mrs</a></li>
+            <li><a class="dropdown-item" href="#">Miss</a></li>
+            <li><a class="dropdown-item" href="#">Dr</a></li>
+            <li><a class="dropdown-item" href="#">I'd Rather Not Say</a></li>
+            <li><a class="dropdown-item" href="#">Other</a></li>
+          </ul>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name </label>
+          <input type="text" class="form-control" id="lastName">
+        </div>
+
+        <div class="mb-3">
+          <label for="phoneNumber" class="form-label">Phone Number </label>
+          <input type="text" class="form-control" id="phoneNumber">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    
   </body>
 
   <footer>
